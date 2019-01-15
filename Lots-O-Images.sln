@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 14 for Windows Desktop
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lots-O-Images", "Lots-O-Images\Lots-O-Images.csproj", "{D679F0BF-C308-46EF-A5D8-501504DDD18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lots-O-Images.Demo", "Lots-O-Images.Demo\Lots-O-Images.Demo.csproj", "{342FB961-D472-4E7F-B69C-03091EA4E011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{D679F0BF-C308-46EF-A5D8-501504DDD18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D679F0BF-C308-46EF-A5D8-501504DDD18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D679F0BF-C308-46EF-A5D8-501504DDD18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342FB961-D472-4E7F-B69C-03091EA4E011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342FB961-D472-4E7F-B69C-03091EA4E011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342FB961-D472-4E7F-B69C-03091EA4E011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342FB961-D472-4E7F-B69C-03091EA4E011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A586D2D-C7B0-4A20-A33A-31AD97F8CE7D}
 	EndGlobalSection
 EndGlobal
