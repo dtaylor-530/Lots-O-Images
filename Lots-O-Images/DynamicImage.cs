@@ -37,7 +37,6 @@ namespace Lots_O_Images
             {
                 _bitmap = value;
                 this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Bitmap)));
-    
             }
         }
         /// <summary>
